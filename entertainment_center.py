@@ -3,6 +3,7 @@ import fresh_tomatoes
 
 
 def get_movie_list():
+    # Movies included in the website and attributes for each
     thor_ragnarok = media.Movie(
         "Thor: Ragnarok",
         "Thor has to prevent the all-powerful Hela from destroying Asgard.",
@@ -45,6 +46,7 @@ def get_movie_list():
          "en/2/2c/Ant-Man_and_the_Wasp_poster.jpg"),
         "https://www.youtube.com/watch?v=UUkn-enk2RU")
 
+    # Make a list of all movies in the website
     movies = [thor_ragnarok,
               spiderman_homecoming,
               avengers_infinity_war,
@@ -56,8 +58,10 @@ def get_movie_list():
 
 
 def main():
+    # Get all the movie data for the website
     movies = get_movie_list()
 
+    # Create and display the webpage
     fresh_tomatoes.open_movies_page(movies)
 
 if __name__ == "__main__":
