@@ -22,6 +22,19 @@ $(document).on('click', '.movie-tile', function (event) {
       'frameborder': 0
     }));
 });
+// Search the movie list. Filter movies in the client side
+$('.form-search').on('submit',function(){
+    return false;
+});
+$('.form-search .btn').on('click', function(event){
+    var query = $.trim($(this).prevAll('#search-string').val()).toLowerCase();
+    $('.movie-tile h2').each(function(){
+        var $this = $(this);
+        if($this.text().toLowerCase().indexOf(query) === -1)
+            $this.closest('.movie-tile').fadeOut();
+        else $this.closest('.movie-tile').fadeIn();
+    });
+});
 // Animate in the movies when the page loads
 $(document).ready(function () {
     $('.movie-tile').hide().first().show("fast", function showNext() {
