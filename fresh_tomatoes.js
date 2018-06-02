@@ -17,7 +17,7 @@ $(document).on('click', '.movie-tile', function (event) {
 });
 // Animate in the movies when the page loads
 $(document).ready(function () {
-  $('.movie-tile').hide().first().show("fast", function showNext() {
-    $(this).next("div").show("fast", showNext);
-  });
+    $('.movie-tile').hide().first().show("fast", function showNext() {
+        $(this).next("div").show("fast", showNext);
+    });
 });
