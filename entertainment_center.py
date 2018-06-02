@@ -64,5 +64,6 @@ def main():
     # Create and display the webpage
     fresh_tomatoes.open_movies_page(movies)
 
+
 if __name__ == "__main__":
     main()
