@@ -7,6 +7,8 @@ def create_movie_tiles_content(movies):
     # A single movie entry html template
     movie_tile_content = '''
     <div class="col-sm-6 col-md-6 col-lg-4 movie-tile text-center"
+            data-title="{movie_title}"
+            data-storyline="{storyline}"
             data-trailer-youtube-id="{trailer_youtube_id}"
             data-toggle="modal"
             data-target="#trailer">
@@ -29,6 +31,7 @@ def create_movie_tiles_content(movies):
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
             movie_title=movie.title,
+            storyline=movie.storyline,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )
