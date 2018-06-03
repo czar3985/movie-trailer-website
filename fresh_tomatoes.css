@@ -34,6 +34,7 @@ body {
     top: 0;
     background-color: white;
 }
+/* Only works with Chrome. Has known compatibility issues with other browsers */
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: searchfield-cancel-button;
 }

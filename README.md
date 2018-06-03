@@ -42,7 +42,15 @@ Major changes to the starter code:
 
 ## Issues
 
-After a search is performed, clearing the search input field does not automatically reload the page. The Search button has to be pressed again.
+There is a known compatibility issue with the cancel search feature in the Search text field for other browsers. It currently only works in Chrome. 
+
+In _fresh_tomatoes.css_:
+```CSS
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+```
+Also, after a search is performed, clearing the search input field does not automatically reload the page. The Search button has to be pressed again.
 
 ## License
 
