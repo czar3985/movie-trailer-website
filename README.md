@@ -16,6 +16,8 @@ entertainment_center.py
 fresh_tomatoes.css
 fresh_tomatoes.js
 fresh_tomatoes.py
+media.py
+movie_list.py
 ```
 4. Run the python script _entertainment_center.py_. The following resource gives more information on how to run python scripts: [How to Run a Python Script via a File or the Shell](https://www.pythoncentral.io/execute-python-script-file-shell/).
 
