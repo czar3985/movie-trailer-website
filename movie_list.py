@@ -148,7 +148,7 @@ def get_content():
          "conspiracy, but he and his team soon come up against an unexpected"
          " enemy."),
         ("https://upload.wikimedia.org/wikipedia/"
-        "en/e/e8/Captain_America_The_Winter_Soldier.jpg"),
+         "en/e/e8/Captain_America_The_Winter_Soldier.jpg"),
         "https://www.youtube.com/watch?v=7SlILk2WMTI")
     thor_dark_world = media.Movie(
         "Thor: The Dark World",
