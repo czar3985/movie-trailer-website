@@ -31,7 +31,7 @@ The search function in the navigation bar can filter the results based on the se
 
 ## Release Notes
 
-The project includes a starter code from Udacity that can be found [here](https://github.com/udacity/ud036_StarterCode). The starter code contained the module for defining the base html file and for opening a modal for the trailer.
+The starter code contained the module for defining the base html file and for opening a modal for the trailer.
 
 Major changes to the starter code:
 - Addition of the Movie class, data for the movies and code for initiating the creation of the web page using the movie data
@@ -55,3 +55,8 @@ Also, after a search is performed, clearing the search input field does not auto
 ## License
 
 Movie Trailer Website is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Acknowledgments
+
+- [Udacity](https://www.udacity.com/) for the forked code. Starter code repository is in [here](https://github.com/udacity/ud036_StarterCode).
+- [A. Wolff](https://stackoverflow.com/users/1414562/a-wolff) for the JQuery code of the search function. See the stackoverflow answer [here](https://stackoverflow.com/questions/16986497/jquery-hide-all-divs-except-for-the-divs-i-search-for/16987520#16987520).
