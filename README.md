@@ -52,10 +52,6 @@ input[type="search"]::-webkit-search-cancel-button {
 ```
 Also, after a search is performed, clearing the search input field does not automatically reload the page. The Search button has to be pressed again.
 
-## License
-
-Movie Trailer Website is released under the [MIT License](https://opensource.org/licenses/MIT).
-
 ## Acknowledgments
 
 - [Udacity](https://www.udacity.com/) for the forked code. Starter code repository is in [here](https://github.com/udacity/ud036_StarterCode).
